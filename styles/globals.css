@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Axiforma';
+  src: url('../public/fonts/Axiforma-font/Axiforma-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('../public/fonts/Axiforma-font/Axiforma-Light.ttf');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('../public/fonts/Axiforma-font/Axiforma-SemiBold.ttf');
+  font-weight: semi-bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('../public/fonts/Axiforma-font/Axiforma-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+input:focus {
+  border-color: #0066FF;
+   outline: none;
+}
+
+
+/* Primary butn color */
+.primary {
+  background-color: #0066FF;
+}
